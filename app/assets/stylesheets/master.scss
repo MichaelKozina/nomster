@@ -13,6 +13,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'abhaya_libreregular';
   margin:0;
   padding:0;
 }
@@ -31,6 +32,7 @@ body {
 .navbar-inverse .navbar-brand {
   color: #white;
   font-family: 'abhaya_libreregular';
+  font-size: 50px;
 }
 
 .invalid-feedback {
