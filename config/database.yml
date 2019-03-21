@@ -8,14 +8,15 @@ default: &default
 
 development:
   <<: *default
-  database: nomster_development
+# database: test_development
+  database: nomster2_development
 
 test:
   <<: *default
-  database: nomster_test
+  database: test_test
 
 production:
   <<: *default
-  database: nomster_production
+  database: test_production
   # username: test
   # password: <%= ENV['TEST_DATABASE_PASSWORD'] %>

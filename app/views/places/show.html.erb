@@ -25,7 +25,7 @@
     
       </script>
       <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBc6bNlBjr2qhUDAPTIAGp9VdyAeNYXICk&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCxSA47A6TNBGleWbXiy4S9eB7FzeU9hw&callback=initMap">
       </script>
     
       <div id="map"></div>
@@ -107,7 +107,7 @@
         <div class="modal-body">
           <%= f.input :message %>
           <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
-        </div>        
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
@@ -141,5 +141,4 @@
       </blockquote>
     </div>
   <% end %>
-  </div>  
 </div>

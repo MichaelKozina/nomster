@@ -76,17 +76,19 @@ gem 'simple_form'
 
 gem "font-awesome-rails"
 
-gem 'bootstrap', '4.0.0.alpha6'
-gem 'simple_form'
-gem 'font-awesome-rails'
+# gem 'bootstrap', '4.0.0.alpha6'
+# gem 'simple_form'
+# gem 'font-awesome-rails'
 gem 'devise'
 
 gem "geocoder"
 
 gem "figaro"
 
-gem 'carrierwave', '~> 0.11'
+# gem 'carrierwave', '~> 0.11'
+
+gem 'carrierwave', '~> 1.0'
 
 gem "fog-aws"
 
-gem 'carrierwave-aws'
+# gem 'carrierwave-aws'
