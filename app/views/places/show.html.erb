@@ -46,7 +46,7 @@
 <div class="clear"></div>
 
 <!-- Photo Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="photosModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -72,7 +72,7 @@
 <div class="col-10 offset-1">
   <h1 class="float-left">Photos</h1>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#photosModal">
     Add a Photo
   </button>  
 </div>
@@ -85,13 +85,14 @@
       <blockquote>
         <%= image_tag photo.picture.url, class: "thumbnail" %>
           <b><%= photo.user.email %></b> -
-        <% end %>
         <%= photo.caption  %>
         <small><%= photo.user.email %></small>
       </blockquote>
     </div>
   <% end %>
 </div>
+
+<br />
 
 <!-- Comment Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
